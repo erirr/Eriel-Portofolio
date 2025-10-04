@@ -94,7 +94,7 @@ elif page == "Project: Power BI Sales Dashboard":
         image = Image.open('Screenshot 2025-10-04 230637.png') 
         st.image(image, caption='Dashboard Performa Penjualan Beecycle (2016-2021)', use_column_width=True)
     except FileNotFoundError:
-        st.error("File gambar 'd'Screenshot 2025-10-04 230637.png' tidak ditemukan. Pastikan file tersebut berada di folder yang sama dengan file Python-mu.")
+        st.error("File gambar 'Screenshot 2025-10-04 230637.png' tidak ditemukan. Pastikan file tersebut berada di folder yang sama dengan file Python-mu.")
     
     st.markdown("---")
     
