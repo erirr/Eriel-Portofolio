@@ -135,7 +135,3 @@ elif page == "Project: Palmer Penguins":
         st.dataframe(df_selection)
 
 st.markdown("---")
-
-### Langkah Terakhir
-
-Jangan lupa perbarui file `requirements.txt` kamu. Karena sekarang kita menggunakan `pandas` untuk proyek penguin, isinya harus menjadi:
