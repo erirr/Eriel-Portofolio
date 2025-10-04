@@ -134,7 +134,7 @@ elif page == "Project: Palmer Penguins":
     with st.expander("View Raw Data"):
         st.dataframe(df_selection)
 
----
+st.markdown("---")
 
 ### Langkah Terakhir
 
